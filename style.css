@@ -1,0 +1,682 @@
+
+body {
+    background-color: #010101;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    color: #cbcbcb;
+    font-family: "Lacquer", system-ui;
+    cursor: pointer;
+    overflow-x: hidden;
+
+    
+}
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.bad-script-regular {
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+/* меню*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.header-box {
+    margin: 0 10px 0 10px;
+}
+.header-box video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    
+    
+    
+    
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.socials {
+    font-size: 32px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+.socials a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu {
+    align-items: center;
+}
+
+.menu li {
+    list-style: none;
+}
+.menu-list {
+    margin:15px ;
+}
+.menu-list li {
+    font-size: 32px;
+    display: inline;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: #cbcbcb;
+    padding: 5px;
+    
+    border-radius: 10px;
+
+}
+.menu-list li:hover {
+    border-radius: 10px;
+    background-color:#0385AA ;
+    transition:  .9s;
+}
+.logo img{
+    font-size: 32px;
+    color: #cbcbcb;
+    width: 100px;
+}
+
+
+/* контент*/
+
+
+
+.content {
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 175px;
+    
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0 10px 0 10px;
+}
+.inf-text {
+    text-transform: uppercase;
+    color: #0385AA;
+    font-family: "Lacquer", system-ui;
+    display: flex;
+    justify-content: center;
+}
+.mf {
+    display: flex;
+    justify-content: center;
+    align-items: top;   
+     
+}
+.mf p {
+    margin-bottom: 0;
+}
+
+.mf-logo {
+    color: #0385AA;
+    display: flex;
+    justify-content: center;
+}
+
+.mf-logo p {
+    font-family: "Lacquer", system-ui;
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+.inf-text h1 {
+    font-size: 96px;
+    margin: 5px;
+
+}
+.where p, .date p {
+    font-size: 42px;
+    margin: 0px;
+    margin-top: 35px;
+    padding: 0 15px 0 15px;
+}
+
+.next-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    padding-bottom: 20px;
+    
+    
+}
+.next-btn div{
+    border-radius: 10px;
+    background-color: #0385AA;
+    padding: 0 50px 0 50px;
+    color: #cbcbcb;
+    text-decoration: none;
+    
+}
+.next-btn div a {
+    text-decoration: none;
+    color: #cbcbcb;
+}
+
+.next-btn div:hover {
+    transform: scale(1.03);
+    transition: 2s ease-in-out;
+}
+.strelka {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    top: -20px;
+    
+}
+.team-cards123,.team-cards456 {
+   display: flex;
+   justify-content: center;
+   background: #010101;
+}
+.cards {
+    position: relative;
+    width: 350px; /* Фиксированная ширина контейнера */
+    height: 350px; /* Фиксированная высота контейнера */
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обрезать изображение, чтобы заполнить контейнер */
+    border-radius: 10px;
+}
+.cards p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #0385AA;
+    background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Скрыть текст по умолчанию */
+    transition: opacity 0.3s; /* Плавный переход */
+    font-size: 24px;
+    padding-top: 130px;
+    
+}
+
+.cards:hover p {
+    opacity: 1; /* Показать текст при наведении на картинку */
+}
+.traning {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.team-h {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    background-color: #010101;
+    color: #0385AA;
+}
+
+.container1 {
+    width: 100%;
+}
+
+
+.slider-traning,.slider-mero {
+    width: 100%;
+    min-height: 150px;
+    background-color: #c0bfbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.regular-traning, .concert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.video-container {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background: black;
+}
+.video-container {
+    border: #0385AA solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+
+.foot-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background: #010101;
+    height: 10vh;
+}
+.foot-logo img {
+    height: 100px;
+    margin-left: 20px;
+}
+.mf-logo a {
+    text-decoration: none;
+    color: #0385AA;
+}
+
+
+
+.menu-list2 {
+    background-color: #0385AA;
+    border-radius: 10px;
+}
+.menu-list2 a {
+    text-decoration: none;
+    color: #cbcbcb;
+}
+.menu-list2 li {
+    font-size: 32px;
+    display: inline;
+    margin-right: 25px;
+    margin-top: 10px;
+    color: #cbcbcb;
+    padding: 5px;
+    
+    border-radius: 10px;
+}
+
+.concert-box {
+    display: flex;
+    justify-content: center;
+    
+}
+.concert-text {
+    background-color: #0385AA;
+    width:70% ;
+    
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.concert-text p {
+    font-size: 20px;
+    background-color: #0385AA;
+    width:70% ;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.concert-text h3, p {
+    padding: 20px;
+    margin: 0;
+}
+.h3-text {
+    display: flex;
+    justify-content: center;
+}
+.map-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.mf-list {
+    
+}
+.text-p-box {
+    border-radius: 10px;
+    background-color: #0385AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.text-p-box p {
+    font-size: 24px;
+    padding: 30px;
+}
+.text-p-box h1 {
+    font-size: 40px;
+    padding: 0px;
+    padding-bottom: 0px;
+}
+.card {
+    width: 1000px;
+    height: 300px;
+    background-color: #0385AA;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.image {
+    width: 150px;
+    height: 200px;
+    background-color: #010101;
+    margin: 0 20px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    left: 250px; /* Положение текста рядом с изображением */
+    opacity: 0;
+    white-space: nowrap;
+    transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    
+}
+
+.card:hover .text {
+    left: 280px; /* Отступ для картинки (150px ширина + 20px margin) + небольшое пространство */
+    opacity: 1;
+}
+
+.text p,h3 {
+    color: white;
+    font-size: 2.2rem;
+    margin: 0;
+}
+.mouse-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: white;
+    width: 60%;
+    margin-top: 80px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 120px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0385AA;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #026b8a;
+}
+
+.element-animation.element-show {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+.element-animation {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+#slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+  }
+  
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+  }
+  
+  #slider ul li {
+    position: relative;
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    background: #ccc;
+    text-align: center;
+    line-height: 300px;
+  }
+  
+  a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+  }
+  
+  a.control_prev {
+    border-radius: 0 2px 2px 0;
+  }
+  
+  a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+  }
+  
+  .slider_option {
+    position: relative;
+    margin: 10px auto;
+    width: 160px;
+    font-size: 18px;
+  }
+  .slider-container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides img {
+    width: 33.33%; /* To display 3 images at once */
+    padding: 3px;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider-button.prev {
+    left: 0;
+}
+
+.slider-button.next {
+    right: 0;
+}
+
+.reg-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-fixed {
+    animation: fixedMenu 0.7s forwards;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: 0,5;
+    background-color: black;
+    transition: background-color 2s ease-out;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для модального окна */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
